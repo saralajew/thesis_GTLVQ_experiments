@@ -71,7 +71,8 @@ To call the GLVQ model training and evaluation use the following:
 python GLVQ_circle.py
 ```
 
-By setting the parameter `--mode` to `GLVQ`, `GMLVQ`, or `GTLVQ` another LVQ
+By setting the parameter `--mode` to `GLVQ` (default), `GMLVQ`, or `GTLVQ` 
+another LVQ
  model type can be called. For example,
  ```
 python GLVQ_circle.py --mode GTLVQ -w trained_model_gtlvq.h5 --eval
