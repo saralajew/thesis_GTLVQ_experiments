@@ -42,7 +42,7 @@ def acc(y_true, y_pred):
 
 # set parameters
 batch_size = 128
-max_number_tangents = 1
+max_number_tangents = 50
 save_dir_base = './output'
 number_runs = 3
 
