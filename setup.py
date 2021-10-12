@@ -30,7 +30,7 @@ setup(name='anysma',
                         'scipy==1.3.0',
                         'sklearn==0.0',
                         'spectral==0.19',
-                        'opencv-python==4.1.0.25'
+                        'opencv-python==4.1.1.26'
                         ],
       classifiers=[
           'Development Status :: 3 - Alpha',
